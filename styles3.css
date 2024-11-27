@@ -18,13 +18,14 @@ table {
     background-color: burlywood;
 
   }
- body{
-    background-image: url(beans.jpg);
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center;
- }
-
+body {
+    background-image: url('beans.jpg');
+    background-size: cover; /* Ensures the image covers the full background */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image from repeating */
+    height: 100vh; /* Ensure full height of the viewport */
+    margin: 0; /* Removes default margin */
+}
 .content{
  background-color: burlywood;
  padding: 20px;               
